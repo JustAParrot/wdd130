@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,33 +8,45 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: Montserrat, Helvetica, sans-serif;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .button-box {
     text-align: center;
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 main section { 
     text-align: center;
+    font-family: Poppins;
 }
 /*#background {     For some reason each time I apply this my page starts to bug
     height: 725px;
 }*/
 body {
     background-color: #2A4683;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
-    background-attachment: #2A4683;
+    background-color: #2A4683;
 }
 nav a:hover { 
     background-color: #e5e5e5;
     color: black;
+    border-radius: 10px;
 }
 .book, .join {
     background-color: #2A4683;
     color: #e5e5e5;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #e5e5e5;
@@ -41,17 +55,24 @@ nav a:hover {
 #background {
     background-color: white;
 } 
+.learn {
+    font-family: Montserrat, Helvetica, sans-serif;
+}
 .hero-msg {
     background-color: black;
 }
 .home-title {
     color: #e5e5e5;
+    font-family: Poppins;
+    font-size: 2em;
+    margin: 10px;
 }
 h4 {
     color: #E58E02;
 }
 footer h3 {
     color: #e5e5e5;
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 footer a {
     color: #E58E02;
@@ -63,7 +84,42 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+#logo_link {
+    width: 10px;
+    padding-top: 5px;
+}
+.msg p {
+    font-size: 8em;
+    padding-bottom: 15px;
+}
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+h2 {
+    margin: 0;
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding: 35px;
+}
+.languages-card, .pc-card, .phone-card {
+    margin: 200px 0;
+}
+#hero-box {
+    margin-top: 10px;
+}
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    border: 10px solid #E58E02;
 }
