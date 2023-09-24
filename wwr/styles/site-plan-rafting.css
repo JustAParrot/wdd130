@@ -16,15 +16,15 @@ Fonts are separated by a & */
   --paragraph-font: ubuntu, roboto, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --headline-color-on-white: #3F292B;  /* headlines on a white background */ 
+  --headline-color-on-color: #3F292B; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #DB7F67; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #3F292B; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #DBBEA1  ;
+  --nav-link-color: #DBBEA1;
+  --nav-background-color: #DB7F67;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #A37B73;
 }
 
 
