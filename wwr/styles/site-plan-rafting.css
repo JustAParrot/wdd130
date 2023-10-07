@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #3F292B   ;
   --secondary-color: #DB7F67 ;
   --accent1-color: #A37B73;
-  --accent2-color: #DBBEA1;
+  --accent2-color: /*Background Colors*/;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Croissant One";
