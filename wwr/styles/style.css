@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&family=Ubuntu:wght@300&display=swap");
+
 .content {
   max-width: 1600px;
   margin: 0 auto;
@@ -6,6 +8,8 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: white;
+  /*padding*/
+  padding: 35px;
 }
 #hero-msg h1,
 #hero-msg h4 {
@@ -16,6 +20,8 @@ nav a {
 }
 main section {
   text-align: center;
+  /*spaces*/
+  box-sizing: border-box;
 }
 .background {
   height: 725px;
@@ -24,6 +30,12 @@ main section {
 /*Background Colors*/
 body {
   background-color: #a37b73;
+  /*font size*/
+  font-family: ubuntu, roboto, sans-serif;
+  font-size: 22px;
+  /*/margin*/
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #3f292b;
@@ -36,6 +48,11 @@ nav a:hover {
 .join {
   background-color: bisque;
   text-decoration: none;
+  /*font size - spaces*/
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover,
 .join:hover {
@@ -47,9 +64,15 @@ nav a:hover {
 .msg {
   background-color: #3f292b;
   color: white;
+  line-height: 1.5em;
+  /*spaces*/
+  padding: 35px;
 }
 footer {
   background-color: #a37b73;
+  /*spaces*/
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 footer a {
   text-decoration: none;
@@ -63,7 +86,9 @@ footer a {
 .hero-img {
   width: 100%;
 }
-.logo {width: 80px;}
+.logo {
+  width: 80px;
+}
 /*Images*/
 
 footer p {
@@ -71,4 +96,38 @@ footer p {
 }
 footer p a:hover {
   text-decoration: underline;
+}
+
+/*Fonts and spaces*/
+.home-title {
+  font-family: ubuntu, roboto, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+.msg h2 {
+  font-family: ubuntu, roboto, sans-serif;
+}
+.msg p {
+  font-size: .8em;
+  padding-bottom: 15px;
+}
+h2 {
+  margin: 0;
+}
+#logo_link {
+  padding-top: 5px;
+}
+.icon {
+  padding-top: 10px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid black;
 }
