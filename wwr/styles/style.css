@@ -244,3 +244,126 @@ footer .social img {
     margin-top: 25px;
   }
 }
+
+/*SECOND PAGE CSS*/
+.salmon-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #3F292B;
+  margin: 40px 25px;
+}
+
+.first_card-img {
+  width: 100%;
+  max-width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  border: 1px solid white;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 5px #6f7364;
+  margin-left: 20px;
+}
+
+.page_text_salmon {
+  text-align: justify;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  color: white;
+  margin-left: 20px;
+}
+
+.icon_calendar_first {
+  grid-row: 1/3;
+  margin-left: 20px;
+}
+
+.utah-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #3F292B;
+  margin: 40px 25px;
+}
+
+.second_card-img {
+  width: 100%;
+  max-width: 100%;
+  grid-column: 3/4;
+  grid-row: 1/3;
+  border: 1px solid white;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 5px #6f7364;
+  
+}
+
+.page_text_utah {
+  text-align: justify;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  color: white;
+}
+
+.icon_calendar_two {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  max-width: 100%;
+  justify-content: right;
+  margin-left: 80px;
+}
+
+.arizona-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #3F292B;
+  margin: 40px 25px;
+}
+
+.third_card-img {
+  width: 100%;
+  max-width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  border: 1px solid white;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 5px #6f7364;
+  margin-left: 20px;
+}
+
+.page_text_arizona {
+  text-align: justify;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  color: white;
+  margin-left: 20px;
+}
+
+.icon_calendar_third {
+  grid-row: 1/3;
+  margin-left: 20px;
+}
+
+#sub_hero {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  gap: 20px;
+  background-color: #3F292B;
+  margin: 40px;
+}
+
+#sub_hero-msg {
+  color: black;
+  grid-column: 2/4;
+  grid-row: 2/4;
+  text-align: center;
+  justify-content: center;
+  background-color: #DB7F67;
+  margin-bottom: 20px;
+}
+
+
+
