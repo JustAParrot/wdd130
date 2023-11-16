@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&family=Ubuntu:wght@300&display=swap");
+
+.logo {
+  width: 80px;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  /*padding*/
+  padding: 35px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a:hover {
+  background-color: #a37b73;
+  color: white;
+}
+
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #a37b73;
+  /*font size*/
+  font-family: ubuntu, roboto, sans-serif;
+  font-size: 22px;
+  /*/margin*/
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3f292b;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+footer {
+  background-color: #3f292b;
+  /*spaces*/
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+a {
+    color: white;
+}
+
+/*PAGE CHANGES: UP*/
+
+/*MAIN CHANGES: DOWN*/

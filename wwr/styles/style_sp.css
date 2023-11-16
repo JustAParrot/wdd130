@@ -9,8 +9,7 @@ nav a {
   text-decoration: none;
   color: white;
   /*padding*/
-  padding: 35px;
-  
+  padding: 35px; 
 }
 nav {
   display: flex;
@@ -84,7 +83,7 @@ nav a:hover {
   box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
-  background-color: #a37b73;
+  background-color: #3f292b;
   /*spaces*/
   padding: 25px 50px;
   margin-top: 200px;
@@ -252,3 +251,8 @@ footer .social img {
   }
 }
 
+/*-------------------------------------------------------*/
+
+a {
+  color: white;
+}
