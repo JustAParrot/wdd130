@@ -38,7 +38,7 @@ body {
   /*font size*/
   font-family: ubuntu, roboto, sans-serif;
   font-size: 22px;
-  /*/margin*/
+  /*margin*/
   margin: 0;
   padding: 0;
 }
@@ -76,9 +76,101 @@ footer .social img {
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 /*PAGE CHANGES: UP*/
 
 /*MAIN CHANGES: DOWN*/
+.country {
+  display: grid;
+  grid-template-columns: 1fr 140px 1fr 1fr;
+  grid-column: span 10;
+  gap: 30px;
+  padding: 20px;
+  background-color: #3f292b;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.country img {
+  width: 100%;
+  height: 300px;
+  max-height: 100%;
+  object-fit: cover;
+  padding-right: 50px;
+}
+
+.country h3 {
+  margin: 0;
+}
+
+.country p {
+  margin: 10px 0;
+}
+
+.country ul {
+  list-style: none;
+  padding: 0;
+}
+
+.country li {
+  margin-bottom: 30px;
+}
+
+#countryInput {
+  background-color: #3f292b;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#countryInput::placeholder {
+  color: white;
+}
+
+
+.fact {
+  position: relative;
+}
+
+.fact img {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 50px;
+  display: block;
+}
+
+.fact p {
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  left: 10px;
+  right: 10px;
+  margin: 0;
+  font-weight: bold;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+
+
+@media screen and (max-width: 768px) {
+  .country {
+    grid-template-columns: 1fr;
+  }
+}

@@ -34,9 +34,9 @@
                         description:
                             "The use of local tropical fruit like guava, babaco, and figs and the rich sweetness of sugarcane juice and panela (unrefined whole cane sugar) make these desserts uniquely Ecuadorian.",
                         products: [
-                            { name: "Manicho", description: "Milk chocolate filled with peanuts" },
-                            { name: "Galak", description: "White chocolate bar filled with rice crisps" },
-                            { name: "Fioravanti", description: "Fruit-flavored, carbonated soft drink first sold in 1878" },
+                            { name: "Manicho", description: "Milk chocolate filled with peanuts\n" },
+                            { name: "Galak", description: "White chocolate bar filled with rice crisps\n" },
+                            { name: "Fioravanti", description: "Fruit-flavored, carbonated soft drink first sold in 1878\n" },
                         ],
                     },
                     {
@@ -45,9 +45,9 @@
                         description:
                             "One of the signature features of seasonal German baked goods is candied citrus peel – usually candied lemon, lime, or orange pieces in small cubes that go into cookies, cakes, and gingerbread. That's the spirit of the Soft Cake: chocolate cookies with flakey wafer bottoms and orange filling.",
                         products: [
-                            { name: "Quarkbällchen", description: "Quarkbällchen, meaning quark balls, is a traditional German snack that is typically made by combining quark, flour, eggs, sugar, vanilla sugar, and baking powder" },
-                            { name: "Hitschies", description: "Shaped wafers containing a filling of lemony fizzle powder that tingles on the tongue" },
-                            { name: "Katzenzungen", description: "Milk chocolate stretched out into an oval that resembles a cat's tongue" },
+                            { name: "Quarkbällchen", description: "Quarkbällchen, meaning quark balls, is a traditional German snack that is typically made by combining quark, flour, eggs, sugar, vanilla sugar, and baking powder\n" },
+                            { name: "Hitschies", description: "Shaped wafers containing a filling of lemony fizzle powder that tingles on the tongue\n" },
+                            { name: "Katzenzungen", description: "Milk chocolate stretched out into an oval that resembles a cat's tongue\n" },
                         ],
                     },
                     {
@@ -56,9 +56,9 @@
                         description:
                             "Greek traditional sweets are made following the principles of the Mediterranean diet; they are simple to prepare and are based on fresh ingredients such as fruit, honey, nuts and sesame paste, grape molasses, and virgin olive oil.",
                         products: [
-                            { name: "Τσουρέκι", description: "Tsoureki: Greek sweet bread that we traditionally eat during Easter" },
-                            { name: "Καραμέλες ούζο", description: "Ouzo Candy: Greek anise-flavored aperitif" },
-                            { name: "Τσάι του βουνού", description: "Greek Mountain Tea: Herbal tea made from a variety of sideritis, a wild herb abundantly found in Greece" },
+                            { name: "Τσουρέκι", description: "Tsoureki: Greek sweet bread that we traditionally eat during Easter\n" },
+                            { name: "Καραμέλες ούζο", description: "Ouzo Candy: Greek anise-flavored aperitif\n" },
+                            { name: "Τσάι του βουνού", description: "Greek Mountain Tea: Herbal tea made from a variety of sideritis, a wild herb abundantly found in Greece\n" },
                         ],
                     },
                 ];
@@ -83,7 +83,6 @@
                         description.textContent = country.description;
                         countryDiv.appendChild(description);
 
-                        // Add a list of products
                         if (country.products && country.products.length > 0) {
                             const productList = document.createElement("ul");
                             country.products.forEach(product => {
@@ -106,10 +105,12 @@
 
                 renderCountries(countries);
             </script>
-            <img class="fact" src="images/lolipop.jpg" alt="facts" />
-            <p>World's Largest Lollipop: The largest lollipop ever made weighed over 4,000 pounds and stood at 20 feet
-                tall. It was created in See's Candies' factory in California.
-            </p>
+            <div class="fact">
+                <img src="images/lolipop.jpg" alt="facts" />
+                <p>World's Largest Lollipop: The largest lollipop ever made weighed over 4,000 pounds and stood at 20 feet
+                    tall. It was created in See's Candies' factory in California.
+                </p>
+            </div>
         </main>
         <footer>
             <p>Great Snipe&copy; 2023 - George A. Quito</p>
