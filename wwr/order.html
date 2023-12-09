@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Great Snipe | International | Home</title>
-    <link rel="stylesheet" href="styles/woldwide.css">
+    <link rel="stylesheet" href="styles/order.css">
 </head>
 
 <body>
@@ -23,48 +23,66 @@
             </nav>
         </header>
         <main>
-            <img class="facts" src="images/macaron.jpg" alt="macaron" />
+            <img class="fact" src="images/macaron.jpg" alt="macaron" />
+            <div id="search">
+                <h2>Our Stock</h2>
 
-            <h2>Our Stock</h2>
+                <label for="countryFilter">Country:</label>
+                <input type="text" id="countryFilter" onkeyup="filterList()" placeholder="Country Name">
 
-            <label for="countryFilter">Country:</label>
-            <input type="text" id="countryFilter" onkeyup="filterList()" placeholder="Country Name">
+                <label for="nameFilter">Name:</label>
+                <input type="text" id="nameFilter" onkeyup="filterList()" placeholder="Product Name">
 
-            <label for="nameFilter">Name:</label>
-            <input type="text" id="nameFilter" onkeyup="filterList()" placeholder="Product Name">
-
-            <label for="typeFilter">Product Type:</label>
-            <input type="text" id="typeFilter" onkeyup="filterList()" placeholder="Snack/Drink/Pastry">
-
-
-            <ul id="productList">
-                <h2>Ecuador</h2>
-                <!-- Ecuador -->
-                <li data-country="Ecuador" data-name="Manicho" data-type="snack">Manicho: Milk chocolate filled with
-                    peanuts.</li>
-                <li data-country="Ecuador" data-name="Galak" data-type="snack">Galak: White chocolate bar filled with
-                    rice crisps.</li>
-                <li data-country="Ecuador" data-name="Fioravanti" data-type="drinks">Fioravanti: Fruit-flavored,
-                    carbonated soft drink first sold in 1878.</li>
-                <h2>Germany</h2>
-                <!-- Germany -->
-                <li data-country="Germany" data-name="Quarkbällchen" data-type="pastry">Quarkbällchen: Meaning quark
-                    balls, is a traditional German snack that is typically made by combining quark, flour, eggs, sugar,
-                    vanilla sugar, and baking powder.</li>
-                <li data-country="Germany" data-name="Hitschies" data-type="snack">Hitschies: Shaped wafers containing a
-                    filling of lemony fizzle powder that tingles on the tongue.</li>
-                <li data-country="Germany" data-name="Katzenzungen" data-type="snack">Katzenzungen: Milk chocolate
-                    stretched out into an oval that resembles a cat's tongue.</li>
-                <h2>Greece</h2>
-                <!-- Greece -->
-                <li data-country="Greece" data-name="Τσουρέκι" data-type="pastry">Tsoureki: Greek sweet bread that we
-                    traditionally eat during Easter.</li>
-                <li data-country="Greece" data-name="Καραμέλες ούζο" data-type="snack">Ouzo Candy: Greek anise-flavored
-                    aperitif.</li>
-                <li data-country="Greece" data-name="Τσάι του βουνού" data-type="drink">Greek Mountain Tea: Herbal tea
-                    made from a variety of sideritis, a wild herb abundantly found in Greece.</li>
-            </ul>
-
+                <label for="typeFilter">Product Type:</label>
+                <input type="text" id="typeFilter" onkeyup="filterList()" placeholder="Snack/Drink/Pastry">
+            </div>
+            <div class="lists">
+                <div class="list">
+                    <ul id="productList">
+                        <h2>Ecuador</h2>
+                        <!-- Ecuador -->
+                        <li data-country="Ecuador" data-name="Manicho" data-type="snack">Manicho: Milk chocolate filled with
+                            peanuts.</li>
+                        <li data-country="Ecuador" data-name="Galak" data-type="snack">Galak: White chocolate bar filled
+                            with
+                            rice crisps.</li>
+                        <li data-country="Ecuador" data-name="Fioravanti" data-type="drinks">Fioravanti: Fruit-flavored,
+                            carbonated soft drink first sold in 1878.</li>
+                        <h2>Germany</h2>
+                        <!-- Germany -->
+                        <li data-country="Germany" data-name="Quarkbällchen" data-type="pastry">Quarkbällchen: Meaning quark
+                            balls, is a traditional German snack that is typically made by combining quark, flour, eggs,
+                            sugar,
+                            vanilla sugar, and baking powder.</li>
+                        <li data-country="Germany" data-name="Hitschies" data-type="snack">Hitschies: Shaped wafers
+                            containing a
+                            filling of lemony fizzle powder that tingles on the tongue.</li>
+                        <li data-country="Germany" data-name="Katzenzungen" data-type="snack">Katzenzungen: Milk chocolate
+                            stretched out into an oval that resembles a cat's tongue.</li>
+                        <h2>Greece</h2>
+                        <!-- Greece -->
+                        <li data-country="Greece" data-name="Τσουρέκι" data-type="pastry">Tsoureki: Greek sweet bread that
+                            we
+                            traditionally eat during Easter.</li>
+                        <li data-country="Greece" data-name="Καραμέλες ούζο" data-type="snack">Ouzo Candy: Greek
+                            anise-flavored
+                            aperitif.</li>
+                        <li data-country="Greece" data-name="Τσάι του βουνού" data-type="drink">Greek Mountain Tea: Herbal
+                            tea
+                            made from a variety of sideritis, a wild herb abundantly found in Greece.</li>
+                    </ul>
+                </div>
+                <div class="fact2">
+                    <img src="images/mochi.jpg" alt="mochi">
+                    <p>
+                        "Time Out" reported that, in 2021, Tokyo was home to 12 restaurants with three Michelin stars — more
+                        than
+                        any other city in the world. This exceptional quality is reflected in the fact that several
+                        Tokyo-based
+                        restaurants are featured on "The World's 50 Best Restaurants" list, as ranked by 50 Best.
+                    </p>
+                </div>
+            </div>
             <script>
                 function filterList() {
                     var countryInput = document.getElementById("countryFilter").value.toUpperCase();
@@ -90,12 +108,6 @@
                     }
                 }
             </script>
-            <img src="images/mochi.jpg" alt="mochi">
-            <p>
-                Time Out reported that, in 2021, Tokyo was home to 12 restaurants with three Michelin stars — more than
-                any other city in the world. This exceptional quality is reflected in the fact that several Tokyo-based
-                restaurants are featured on "The World's 50 Best Restaurants" list, as ranked by 50 Best.
-            </p>
         </main>
         <footer>
             <p>Great Snipe&copy; 2023 - George A. Quito</p>
